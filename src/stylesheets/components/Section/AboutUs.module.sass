@@ -1,0 +1,83 @@
+@import "../../../utils/widthPicker"
+@import "../../../utils/colorPalette"
+
+.backgroundImage
+  background: linear-gradient(to bottom, black, transparent 20%, transparent 80%, black 100%), url("../../../data/images/aboutMe/handshake.jpg") scroll center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+
+.sectionMargins
+  margin-top: 120px
+  margin-bottom: 120px
+
+.description
+  width: 660px
+  font-size: 16px
+  color: $smoke-grey
+  +screen(greaterThanMedium)
+    margin-right: 30px
+  +screen(extraLarge)
+    width: 550px
+  +screen(large)
+    width: 410px
+  +screen(small)
+    width: 100%
+
+.link
+  color: #01A18B
+  &:hover
+    color: #40a186
+
+.image
+  width: 300px
+  height: 300px
+  border: 7px solid $oxidised-silver
+  filter: grayscale(85%)
+  border-radius: 100%
+  transition: filter .2s
+  +screen(lessThanMedium)
+    display: none
+  +screen(large)
+    width: 250px
+    height: 250px
+  &:hover
+    filter: grayscale(0%)
+
+.ruler
+  max-width: 300px
+  margin-left: 0
+  margin-top: 20px
+
+.heading
+  margin-bottom: 0
+  margin-left: 0
+  font-style: italic
+
+.titleRow
+  margin-bottom: 10px
+  align-items: center
+  +screen(small)
+    margin-bottom: 10px
+  +screen(large)
+    margin-bottom: 35px
+
+.descriptionRow
+  justify-content: space-between
+  align-items: center
+  font-family: 'Georgia', serif
+
+.listPadding
+  padding: 0
+  li
+    list-style: none
+  li::before
+    content: "\003E"
+    display: inline-block
+    font-size: 16px
+    width: 1em
+  li a
+    color: $oxidised-silver
+    text-decoration: underline
+    text-decoration-style: dotted

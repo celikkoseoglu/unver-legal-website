@@ -1,0 +1,50 @@
+{
+  "title": "Unver Legal",
+  "pageTitle": "UnverLegal - Publications",
+  "pageDescription": "This is where you can read UnverLegal publications and learn more about what we do.",
+  "metaImageAlt": "The image contains the logo of this website. Next to that, it says publications with capital letters in Montserrat font.",
+  "blogItems": [
+    {
+      "title": "Anonim Şirket Genel Kurul Kararının İptali - Muhalefet Şerhi - Peşin Muhalefet",
+      "date": "15.03.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Sermaye Artırımına İlişkin AŞ Genel Kurul Kararının İptali - Karara Muhalefet Ne Zaman Yapılmalı? Peşinen Muhalefet Dava Şartı Yokluğunu Gündeme Getirmektedir",
+      "blogPost": "anonimSirketGenelKurulKararininIptali"
+    },
+    {
+      "title": "Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek",
+      "date": "01.03.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek ve Bu Durumun Hizmet Süresine Etkisi",
+      "blogPost": "emekliOlduktanSonraAyniIsYerindeCalismayaDevamEtmek"
+    },
+    {
+      "title": "Mirası Reddin Mirasçılara Yapılan İcra Takibine Etkisi",
+      "date": "15.02.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Mirası Reddin Mirasçılara Yapılan İcra Takibine Etkisi",
+      "blogPost": "mirasiReddinMirascilaraYapilanIcraTakibineEtkisi"
+    },
+    {
+      "title": "Otoparka Teslim Edilen Aracın Çalınması Halinde Teslim Alanın Sorumluluğu",
+      "date": "01.02.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Otoparka Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı",
+      "blogPost": "otoparktaTeslimEdilenAracinCalinmasi"
+    },
+    {
+      "title": "Anonim Şirket YK Üyeleri ile Akdedilen İş Sözleşmeleri ve YK Üyelerinin Sigortalılığı\n",
+      "date": "15.01.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Anonim Şirket ile YK Üyeleri, Üst Düzey Yöneticiler Arasındaki İş Sözleşmelerinin Geçerliliği ve Yönetim Kurulu Üyelerinin Sigortalılığı",
+      "blogPost": "anonimSirketYKUyeleriIleAkdedilenIsSozlesmeleri"
+    },
+    {
+      "title": "Koronavirus ve Kiralara Etkisi",
+      "date": "01.01.2021",
+      "minutes": "15 dakikalik okuma",
+      "subtitle": "Koronavirüs Dolayısıyla Kira Sözleşmelerinin Aşırı İfa Güçlüğü Çerçevesinde Yeniden Uyarlanması ve Bursa Bölge Adliye Mahkemesi Kararı",
+      "blogPost": "koronavirusVeKiralaraEtkisi"
+    }
+  ]
+}

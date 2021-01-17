@@ -1,0 +1,36 @@
+@import "../../../utils/colorPalette"
+
+.socialMediaButton
+  text-align: center
+  display: block
+  height: 30px
+  width: 30px
+  outline: 0
+  border-radius: 100%
+  font-size: 16px
+  line-height: 30px
+  color: $white
+  transition: background-color .2s, transform 0.2s
+  margin: 0
+  background: $oxidised-silver
+  &:hover
+    transform: scale(1.075)
+    color: $white
+  &:active
+    transform: scale(1.025)
+
+.linkedin
+  &:hover, &:focus, &:active
+    background-color: $linkedin
+.mail
+  &:hover, &:focus, &:active
+    background-color: $mail
+
+.noVerticalMargin
+  margin-top: 0
+  margin-bottom: 0
+
+.inlineList
+  padding-left: 0
+  list-style: none
+  display: flex
