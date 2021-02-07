@@ -2,19 +2,21 @@
 @import "../../../utils/colorPalette"
 
 .backgroundImage
-  background: linear-gradient(to bottom, black, transparent 20%, transparent 80%, black 100%), url("../../../data/images/aboutMe/handshake.jpg") scroll center center
+  background: url("../../../data/images/aboutMe/handshake.jpg")
   -webkit-background-size: cover
   -moz-background-size: cover
   background-size: cover
   -o-background-size: cover
 
 .sectionMargins
-  margin-top: 120px
-  margin-bottom: 120px
+  margin-top: 180px
+  margin-bottom: 180px
 
 .description
-  width: 660px
+  width: 760px
   font-size: 16px
+  font-weight: 300
+  font-family: Montserrat, sans-serif
   color: $smoke-grey
   +screen(greaterThanMedium)
     margin-right: 30px
@@ -51,9 +53,10 @@
   margin-top: 20px
 
 .heading
+  font-family: Montserrat, sans-serif
   margin-bottom: 0
   margin-left: 0
-  font-style: italic
+  font-weight: 700
 
 .titleRow
   margin-bottom: 10px
@@ -66,7 +69,6 @@
 .descriptionRow
   justify-content: space-between
   align-items: center
-  font-family: 'Georgia', serif
 
 .listPadding
   padding: 0

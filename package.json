@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "8.0.2",
+    "firebase": "8.2.6",
     "local-storage-fallback": "4.1.1",
     "markdown-to-jsx": "7.1.0",
     "node-sass": "4.14.1",
@@ -37,8 +37,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src -c .eslintrc.json --ext js,jsx",
-    "postbuild": "react-snap"
+    "lint": "eslint src -c .eslintrc.json --ext js,jsx"
   },
   "browserslist": {
     "production": [
