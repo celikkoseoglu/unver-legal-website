@@ -4,12 +4,23 @@
 $transparency: 0.85
 $navbar-color: rgba(27, 27, 27, $transparency)
 
+.brand
+  width: 160px
+
+.brandSmall
+  width: 140px
+
+.brandTransition
+  transition: width .5s ease .1s
+
 .topNavExpand
-  padding-top: 5px
-  padding-bottom: 5px
+  padding-top: 20px
+  padding-bottom: 20px
 
 .topNavCollapse
   backdrop-filter: blur(5px)
+  padding-top: 8px
+  padding-bottom: 8px
 
 .customNavbar
   transition: background .2s ease .1s, padding .5s ease

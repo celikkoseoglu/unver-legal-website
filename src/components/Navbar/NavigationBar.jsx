@@ -11,6 +11,9 @@ import {
   topNavCollapse,
   topNavExpand,
   whiteLink,
+  brand,
+  brandSmall,
+  brandTransition,
 } from "../../stylesheets/components/Navbar/NavigationBar.module.sass";
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
@@ -62,9 +65,17 @@ const NavigationBar = () => {
     >
       <Container className={navbarContainer}>
         <div className={mobileNavbar}>
-          <a href="/">
-            <img border="0" alt="logo" src={unverLegalLogo} width="160" height="100" />
-          </a>
+          <NavbarItem
+            title={
+              <img
+                alt="logo"
+                className={`${brandTransition} ${navbarExpanded ? brand : brandSmall}`}
+                src={unverLegalLogo}
+              />
+            }
+            reference={content.landingReference}
+          />
+
           <NavbarToggle
             onClickMethod={setMobileNavbarCollapsed}
             collapsed={mobileNavbarCollapsed}

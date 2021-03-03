@@ -23,16 +23,18 @@ const AboutMe = ({ id }) => {
   return (
     <Section className={backgroundImage} id={id}>
       <Container className={sectionMargins}>
-        <Row className={`${titleRow}`}>
+        <Row className={titleRow}>
           <Heading text={aboutUs.title} className={heading} />
         </Row>
         <HorizontalRuler isDark className={ruler} />
-        <Row className={`${descriptionRow}`}>
+        <Row className={descriptionRow}>
           <div className={description}>
             <p>{aboutUs.descriptionHead}</p>
             <p>{aboutUs.descriptionMid}</p>
             <p>{aboutUs.descriptionTail}</p>
-            <UnstyledLink className={link} to="/blog" >Read our publications</UnstyledLink>
+            <UnstyledLink className={link} to="/publications">
+              Read our publications
+            </UnstyledLink>
           </div>
         </Row>
       </Container>

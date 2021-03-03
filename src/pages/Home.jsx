@@ -5,6 +5,7 @@ import AboutMe from "../components/Section/AboutUs";
 import Footer from "../components/Footer/Footer";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/home.png";
+import PublicationShowcase from "../components/Section/PublicationShowcase";
 
 const content = require("../data/content");
 
@@ -20,6 +21,7 @@ const Home = () => {
       <NavigationBar />
       <Landing id={content.landingReference} />
       <AboutMe id={content.aboutUsReference} />
+      <PublicationShowcase id={content.publicationShowcaseReference} />
       <Footer />
     </>
   );

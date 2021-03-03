@@ -1,10 +1,13 @@
 {
-  "heroTitle": "UL",
   "landingReference": "landing",
   "items": [
     {
       "title":"ABOUT US",
       "reference": "aboutUs"
+    },
+    {
+      "title":"CONTACT",
+      "reference": "footer"
     },
     {
       "title":"PUBLICATIONS",

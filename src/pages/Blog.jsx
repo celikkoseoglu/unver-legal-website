@@ -1,20 +1,11 @@
 import React, { useState } from "react";
 import NoSSR from "react-no-ssr";
 import BlogItem from "../components/Blog/BlogItem";
-import Row from "../components/Util/Row";
 import {
-  fontColorTransition,
-  blogDark,
   blogItemMargin,
   blogNavbarMargin,
   blogStyle,
-  blogTitleFont,
-  blogSubtitleFont,
-  circularImage,
   footerStyle,
-  noMargin,
-  profilePicture,
-  verticalCenter,
 } from "../stylesheets/Blog.module.sass";
 import { getInitialTheme } from "../utils/FileManager.utils";
 import BlogFooter from "../components/Footer/BlogFooter";

@@ -1,0 +1,14 @@
+@import "../../../utils/widthPicker"
+@import "../../../utils/colorPalette"
+
+.backgroundImage
+  background: url("../../../data/images/publicationShowcase/papers.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+
+.blogShowcaseCard
+  display: none
+  +screen(greaterThanExtraLarge)
+    display: block

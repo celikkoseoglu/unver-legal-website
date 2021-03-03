@@ -1,6 +1,7 @@
 {
   "landingReference": "landing",
   "aboutUsReference": "aboutUs",
+  "publicationShowcaseReference": "publicationShowcase",
   "contactReference" : "contact",
   "pageTitle": "UnverLegal - Home",
   "pageDescription": "//TODO short description about unverlegal homepage. To be shown under SEO results",
