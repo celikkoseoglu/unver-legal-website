@@ -11,21 +11,29 @@
 .sectionMargins
   margin-top: 170px
   margin-bottom: 170px
+  +screen(large)
+    margin-top: 40px
+    margin-bottom: 40px
+  +screen(lessThanMedium)
+    margin-top: 15px
+    margin-bottom: 15px
 
 .description
-  width: 760px
+  max-width: 700px
   font-size: 16px
   font-weight: 300
   font-family: Montserrat, sans-serif
   color: $pale-grey
-  +screen(greaterThanMedium)
-    margin-right: 30px
-  +screen(extraLarge)
-    width: 550px
-  +screen(large)
-    width: 410px
-  +screen(small)
-    width: 100%
+
+.descriptionRow
+  justify-content: space-between
+  align-items: center
+
+.heading
+  font-family: Montserrat, sans-serif
+  margin-bottom: 0
+  margin-left: 0
+  font-weight: 700
 
 .link
   color: #01A18B
@@ -53,12 +61,6 @@
   margin-left: 0
   margin-top: 20px
 
-.heading
-  font-family: Montserrat, sans-serif
-  margin-bottom: 0
-  margin-left: 0
-  font-weight: 700
-
 .titleRow
   margin-bottom: 10px
   align-items: center
@@ -66,10 +68,6 @@
     margin-bottom: 10px
   +screen(large)
     margin-bottom: 35px
-
-.descriptionRow
-  justify-content: space-between
-  align-items: center
 
 .listPadding
   padding: 0

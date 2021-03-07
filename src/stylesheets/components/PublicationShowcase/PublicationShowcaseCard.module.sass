@@ -14,16 +14,10 @@
     transform: scale(1.01)
     +screen(small)
       transform: scale(1.005)
-  +screen(small)
-    -webkit-box-shadow: 5px 5px 0 0 $smoke-grey
-    box-shadow: 5px 5px 0 0 $smoke-grey
+  +screen(lessThanMedium)
     height: auto
-    width: auto
+    width: 100%
     margin: 10px 0
-  +screen(medium)
-    margin: 20px
-  +screen(large)
-    margin: 10px
 
 .montserrat
   font-family: 'Montserrat', sans-serif
@@ -42,6 +36,8 @@
   color: $smoke-grey
   margin-bottom: 0
   margin-top: 0
+  +screen(lessThanMedium)
+    margin-top: 7px
 
 .subtitleStyle
   color: $pale-grey
@@ -49,6 +45,8 @@
 
 .description
   height: 160px
+  +screen(lessThanMedium)
+    height: auto
   overflow: hidden
   p
     margin-bottom: 0

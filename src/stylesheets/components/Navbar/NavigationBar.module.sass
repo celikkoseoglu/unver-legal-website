@@ -1,14 +1,18 @@
 @import "../../../utils/widthPicker"
 @import "../../../utils/colorPalette"
 
-$transparency: 0.85
+$transparency: 0.90
 $navbar-color: rgba(27, 27, 27, $transparency)
 
 .brand
   width: 160px
+  +screen(lessThanMedium)
+    width: 120px
 
 .brandSmall
   width: 140px
+  +screen(lessThanMedium)
+    width: 100px
 
 .brandTransition
   transition: width .5s ease .1s
@@ -68,3 +72,6 @@ $navbar-color: rgba(27, 27, 27, $transparency)
 .mobileNavbarLinksExpanded
   +screen(lessThanMedium)
     max-height: 150px
+
+.noLeftPadding
+  padding-left: 0

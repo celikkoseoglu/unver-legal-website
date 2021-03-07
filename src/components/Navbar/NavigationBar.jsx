@@ -14,6 +14,7 @@ import {
   brand,
   brandSmall,
   brandTransition,
+  noLeftPadding,
 } from "../../stylesheets/components/Navbar/NavigationBar.module.sass";
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
@@ -34,10 +35,10 @@ const NavigationBar = () => {
       setNavbarExpanded(true);
     }
 
-    if (window.pageYOffset > 500) {
+    if (window.pageYOffset > 250) {
       setTransparency(1);
     } else {
-      setTransparency(window.pageYOffset / 500.0);
+      setTransparency(window.pageYOffset / 250.0);
     }
 
     setMobileNavbarCollapsed(true);
@@ -66,6 +67,7 @@ const NavigationBar = () => {
       <Container className={navbarContainer}>
         <div className={mobileNavbar}>
           <NavbarItem
+            className={noLeftPadding}
             title={
               <img
                 alt="logo"
