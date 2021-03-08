@@ -17,9 +17,9 @@ import metaThumbnail from "../data/images/meta/blog.png";
 
 import GrowingCircleAnimation from "../components/Animations/GrowingCircleAnimation";
 
-const blog = require("../data/blog");
-const footer = require("../data/footer");
-const blogNavbar = require("../data/blogNavbar");
+const blog = require("../data/en/blog.json");
+const footer = require("../data/en/footer.json");
+const blogNavbar = require("../data/en/blogNavbar.json");
 
 const Blog = () => {
   const [isDark, setIsDark] = useState(getInitialTheme());

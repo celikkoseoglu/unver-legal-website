@@ -11,8 +11,7 @@ import Hero from "../Hero";
 import { iPad } from "../../utils/Constants.utils";
 import { debounce } from "../../utils/Limitors";
 import { isPrerendering } from "../../utils/ReactSnapHelper";
-
-const hero = require("../../data/hero");
+import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
 const randomLandingImageNumber = getRandomInt(folders.heroImages.length);
 const landingImageUrl = folders.heroImages[randomLandingImageNumber];
@@ -20,7 +19,9 @@ const tinyLandingImageUrl = folders.tinyHeroImages[randomLandingImageNumber];
 
 let windowInnerWidth = 0;
 
-const Landing = ({ id }) => {
+const Landing = ({ id, language }) => {
+  const hero = getLanguageFile("hero", language);
+
   /* the rendering of this component needs to be deferred because react-snap tries to take a
      snapshot of the progressive image before the final image loads. This breaks progressive
      image loading. Until react-snap provides an `exclude` option, deferring the rendering of
@@ -75,6 +76,7 @@ const Landing = ({ id }) => {
                 <Hero
                   introHeading={hero.introHeading}
                   introLeadIn={hero.introLeadIn}
+                  introLeadOut={hero.introLeadOut}
                   resumeButtonText={hero.resumeButtonText}
                   resumeLink={hero.resumeButtonLink}
                 />
@@ -93,12 +95,14 @@ const Landing = ({ id }) => {
       }
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [language]);
 
   return innerHTML;
 };
+
 Landing.propTypes = {
   id: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
 };
 
 export default Landing;

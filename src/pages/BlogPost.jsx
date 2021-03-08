@@ -18,8 +18,8 @@ import { firebaseAnalytics } from "../firebaseConfig";
 import BlogPostMarkdown from "../components/Blog/BlogPostMarkdown";
 import GrowingCircleAnimation from "../components/Animations/GrowingCircleAnimation";
 
-const blogNavbar = require("../data/blogNavbar");
-const footer = require("../data/footer");
+const blogNavbar = require("../data/en/blogNavbar.json");
+const footer = require("../data/en/footer.json");
 
 const BlogPost = () => {
   const [post, setPost] = useState("");

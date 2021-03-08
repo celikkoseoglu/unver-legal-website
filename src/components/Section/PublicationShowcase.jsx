@@ -23,8 +23,8 @@ import {
 import HorizontalRuler from "../Util/HorizontalRuler";
 import Container from "../Util/Container";
 
-const blog = require("../../data/blog");
-const blogShowcase = require("../../data/blogShowcase");
+const blog = require("../../data/en/blog.json");
+const blogShowcase = require("../../data/en/blogShowcase.json");
 
 const PublicationShowcase = ({ id }) => {
   return (

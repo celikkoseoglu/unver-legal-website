@@ -17,7 +17,7 @@ import Container from "../Util/Container";
 import Row from "../Util/Row";
 import UnstyledLink from "../Util/UnstyledLink";
 
-const aboutUs = require("../../data/aboutMe");
+const aboutUs = require("../../data/en/aboutMe.json");
 
 const AboutMe = ({ id }) => {
   return (

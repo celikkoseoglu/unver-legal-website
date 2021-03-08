@@ -18,7 +18,7 @@ import Container from "../Util/Container";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
 import BlogBrandingLogo from "../Animations/BlogBrandingLogo";
 
-const footer = require("../../data/footer");
+const footer = require("../../data/en/footer.json");
 
 const Footer = () => {
   const [isDisclaimerExpanded, setIsDisclaimerExpanded] = useState(false);

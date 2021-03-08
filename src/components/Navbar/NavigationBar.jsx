@@ -1,6 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
+import PropTypes from "prop-types";
 import NavbarItem from "./NavbarItem";
 import {
+  brand,
+  brandSmall,
+  brandTransition,
   customNavbar,
   mobileNavbar,
   mobileNavbarLinksCollapsed,
@@ -8,22 +12,20 @@ import {
   navbarContainer,
   navbarLinks,
   navbarToggle,
+  noLeftPadding,
   topNavCollapse,
   topNavExpand,
   whiteLink,
-  brand,
-  brandSmall,
-  brandTransition,
-  noLeftPadding,
 } from "../../stylesheets/components/Navbar/NavigationBar.module.sass";
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
-import { debounce, throttle } from "../../utils/Limitors";
+import {debounce, throttle} from "../../utils/Limitors";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
+import {switchLanguage} from "../../utils/LanguageSwitcher";
 
-const content = require("../../data/navbar");
+const content = require("../../data/en/navbar.json");
 
-const NavigationBar = () => {
+const NavigationBar = ({ language, languageSwitchFunction }) => {
   const [navbarExpanded, setNavbarExpanded] = useState(true);
   const [mobileNavbarCollapsed, setMobileNavbarCollapsed] = useState(true);
   const [transparency, setTransparency] = useState(0.0);
@@ -78,6 +80,16 @@ const NavigationBar = () => {
             reference={content.landingReference}
           />
 
+          <button
+            type="button"
+            aria-label="Navbar Toggle"
+            onClick={(_) => {
+              languageSwitchFunction(switchLanguage(language));
+            }}
+          >
+            Switch Language
+          </button>
+
           <NavbarToggle
             onClickMethod={setMobileNavbarCollapsed}
             collapsed={mobileNavbarCollapsed}
@@ -102,6 +114,11 @@ const NavigationBar = () => {
       </Container>
     </nav>
   );
+};
+
+NavigationBar.propTypes = {
+  language: PropTypes.string.isRequired,
+  languageSwitchFunction: PropTypes.func.isRequired,
 };
 
 export default NavigationBar;

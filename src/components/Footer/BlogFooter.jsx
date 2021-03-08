@@ -9,7 +9,7 @@ import {
   socialMediaBar,
 } from "../../stylesheets/components/Footer/BlogFooter.module.sass";
 
-const footer = require("../../data/footer");
+const footer = require("../../data/en/footer.json");
 
 const BlogFooter = ({ isDark }) => {
   return (
