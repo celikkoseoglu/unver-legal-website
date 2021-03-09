@@ -16,10 +16,11 @@ import Section from "../Util/Section";
 import Container from "../Util/Container";
 import Row from "../Util/Row";
 import UnstyledLink from "../Util/UnstyledLink";
+import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
-const aboutUs = require("../../data/en/aboutMe.json");
+const AboutMe = ({ id, language }) => {
+  const aboutUs = getLanguageFile("aboutMe", language);
 
-const AboutMe = ({ id }) => {
   return (
     <Section className={backgroundImage} id={id}>
       <Container className={sectionMargins}>
@@ -32,8 +33,9 @@ const AboutMe = ({ id }) => {
             <p>{aboutUs.descriptionHead}</p>
             <p>{aboutUs.descriptionMid}</p>
             <p>{aboutUs.descriptionTail}</p>
+            <p>{aboutUs.descriptionFin}</p>
             <UnstyledLink className={link} to="/publications">
-              Read our publications
+              {aboutUs.readPublications}
             </UnstyledLink>
           </div>
         </Row>
@@ -44,6 +46,7 @@ const AboutMe = ({ id }) => {
 
 AboutMe.propTypes = {
   id: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
 };
 
 export default AboutMe;

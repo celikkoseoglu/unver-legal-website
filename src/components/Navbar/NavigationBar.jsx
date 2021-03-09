@@ -21,14 +21,14 @@ import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
 import {debounce, throttle} from "../../utils/Limitors";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
-import {switchLanguage} from "../../utils/LanguageSwitcher";
-
-const content = require("../../data/en/navbar.json");
+import {getLanguageFile, switchLanguage} from "../../utils/LanguageSwitcher";
 
 const NavigationBar = ({ language, languageSwitchFunction }) => {
   const [navbarExpanded, setNavbarExpanded] = useState(true);
   const [mobileNavbarCollapsed, setMobileNavbarCollapsed] = useState(true);
   const [transparency, setTransparency] = useState(0.0);
+
+  const content = getLanguageFile("navbar", language);
 
   function handleScroll() {
     if (window.pageYOffset > 50) {

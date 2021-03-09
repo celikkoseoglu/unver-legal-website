@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import {
   brandingLogos,
   celikkBranding,
@@ -17,11 +18,13 @@ import HorizontalRuler from "../Util/HorizontalRuler";
 import Container from "../Util/Container";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
 import BlogBrandingLogo from "../Animations/BlogBrandingLogo";
+import { getLanguageFile } from "../../utils/LanguageSwitcher";
+import AboutMe from "../Section/AboutUs";
 
-const footer = require("../../data/en/footer.json");
-
-const Footer = () => {
+const Footer = ({ language }) => {
   const [isDisclaimerExpanded, setIsDisclaimerExpanded] = useState(false);
+
+  const footer = getLanguageFile("footer", language);
 
   const getDisclaimerToggleLink = () => {
     return (
@@ -66,6 +69,10 @@ const Footer = () => {
       </Container>
     </footer>
   );
+};
+
+Footer.propTypes = {
+  language: PropTypes.string.isRequired,
 };
 
 export default Footer;

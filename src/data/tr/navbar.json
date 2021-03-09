@@ -1,0 +1,17 @@
+{
+  "landingReference": "landing",
+  "items": [
+    {
+      "title":"HAKKIMIZDA",
+      "reference": "aboutUs"
+    },
+    {
+      "title":"İLETİŞİM",
+      "reference": "footer"
+    },
+    {
+      "title":"BÜLTENLER",
+      "href": "/publications"
+    }
+  ]
+}

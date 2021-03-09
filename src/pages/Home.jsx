@@ -25,7 +25,7 @@ const Home = () => {
       <Landing id={content.landingReference} language={language} />
       <AboutMe id={content.aboutUsReference} language={language} />
       <PublicationShowcase id={content.publicationShowcaseReference} language={language} />
-      <Footer />
+      <Footer language={language} />
     </>
   );
 };
