@@ -16,17 +16,21 @@ import {
   description,
   descriptionRow,
   heading,
+  link,
   ruler,
   sectionMargins,
   titleRow,
 } from "../../stylesheets/components/Section/AboutUs.module.sass";
 import HorizontalRuler from "../Util/HorizontalRuler";
 import Container from "../Util/Container";
+import UnstyledLink from "../Util/UnstyledLink";
+import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
 const blog = require("../../data/en/blog.json");
-const blogShowcase = require("../../data/en/blogShowcase.json");
 
-const PublicationShowcase = ({ id }) => {
+const PublicationShowcase = ({ id, language }) => {
+  const blogShowcase = getLanguageFile("blogShowcase", language);
+
   return (
     <Section className={backgroundImage} id={id}>
       <Container className={sectionMargins}>
@@ -54,6 +58,9 @@ const PublicationShowcase = ({ id }) => {
             />
           ))}
         </Row>
+        <UnstyledLink className={link} to="/publications">
+          {blogShowcase.readPublications}
+        </UnstyledLink>
       </Container>
     </Section>
   );
@@ -61,6 +68,7 @@ const PublicationShowcase = ({ id }) => {
 
 PublicationShowcase.propTypes = {
   id: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
 };
 
 export default PublicationShowcase;

@@ -1,0 +1,16 @@
+@import "../../utils/colorPalette"
+@import "../../utils/widthPicker"
+
+.languageToggle
+  border: none transparent // none is required for IE11 Support
+  cursor: pointer
+  color: $pale-grey
+  background: transparent
+  font-weight: 500
+  padding-left: 0
+  +screen(greaterThanMedium)
+    border-left: 1px solid $pale-grey
+    padding-left: 13px
+
+.languageToggle:focus
+  outline: 0

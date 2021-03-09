@@ -1,5 +1,9 @@
+@import "../../../utils/widthPicker"
+
 .navLink
   display: block
-  padding: .5rem 1rem
+  padding: .5rem 0rem
+  +screen(greaterThanMedium)
+    padding: .5rem 1rem
   &:hover
     text-decoration: none

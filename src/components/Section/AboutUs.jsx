@@ -15,7 +15,6 @@ import HorizontalRuler from "../Util/HorizontalRuler";
 import Section from "../Util/Section";
 import Container from "../Util/Container";
 import Row from "../Util/Row";
-import UnstyledLink from "../Util/UnstyledLink";
 import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
 const AboutMe = ({ id, language }) => {
@@ -34,9 +33,6 @@ const AboutMe = ({ id, language }) => {
             <p>{aboutUs.descriptionMid}</p>
             <p>{aboutUs.descriptionTail}</p>
             <p>{aboutUs.descriptionFin}</p>
-            <UnstyledLink className={link} to="/publications">
-              {aboutUs.readPublications}
-            </UnstyledLink>
           </div>
         </Row>
       </Container>

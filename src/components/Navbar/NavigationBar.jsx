@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import NavbarItem from "./NavbarItem";
 import {
@@ -19,9 +19,10 @@ import {
 } from "../../stylesheets/components/Navbar/NavigationBar.module.sass";
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
-import {debounce, throttle} from "../../utils/Limitors";
+import { debounce, throttle } from "../../utils/Limitors";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
-import {getLanguageFile, switchLanguage} from "../../utils/LanguageSwitcher";
+import { getLanguageFile, switchLanguage } from "../../utils/LanguageSwitcher";
+import LanguageToggle from "../LanguageToggle";
 
 const NavigationBar = ({ language, languageSwitchFunction }) => {
   const [navbarExpanded, setNavbarExpanded] = useState(true);
@@ -79,17 +80,6 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
             }
             reference={content.landingReference}
           />
-
-          <button
-            type="button"
-            aria-label="Navbar Toggle"
-            onClick={(_) => {
-              languageSwitchFunction(switchLanguage(language));
-            }}
-          >
-            Switch Language
-          </button>
-
           <NavbarToggle
             onClickMethod={setMobileNavbarCollapsed}
             collapsed={mobileNavbarCollapsed}
@@ -110,6 +100,11 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
               key={item.title}
             />
           ))}
+          <LanguageToggle
+            languageSwitchFunction={languageSwitchFunction}
+            text="TR | EN"
+            language={language}
+          />
         </div>
       </Container>
     </nav>
