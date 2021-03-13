@@ -7,7 +7,6 @@ import {
   heading,
   titleRow,
   descriptionRow,
-  link,
   backgroundImage,
   sectionMargins,
 } from "../../stylesheets/components/Section/AboutUs.module.sass";

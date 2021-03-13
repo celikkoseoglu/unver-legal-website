@@ -4,6 +4,8 @@ import Section from "../Util/Section";
 import {
   blogShowcaseCard,
   backgroundImage,
+  link,
+  buttonPadding
 } from "../../stylesheets/components/Section/PublicationShowcase.module.sass";
 import Heading from "../Heading";
 import Row from "../Util/Row";
@@ -16,7 +18,6 @@ import {
   description,
   descriptionRow,
   heading,
-  link,
   ruler,
   sectionMargins,
   titleRow,
@@ -26,10 +27,9 @@ import Container from "../Util/Container";
 import UnstyledLink from "../Util/UnstyledLink";
 import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
-const blog = require("../../data/en/blog.json");
-
 const PublicationShowcase = ({ id, language }) => {
   const blogShowcase = getLanguageFile("blogShowcase", language);
+  const blog = getLanguageFile("blog", language);
 
   return (
     <Section className={backgroundImage} id={id}>
@@ -59,7 +59,7 @@ const PublicationShowcase = ({ id, language }) => {
           ))}
         </Row>
         <UnstyledLink className={link} to="/publications">
-          {blogShowcase.readPublications}
+          <p className={buttonPadding}>{blogShowcase.viewAllBlogPostsButton}</p>
         </UnstyledLink>
       </Container>
     </Section>

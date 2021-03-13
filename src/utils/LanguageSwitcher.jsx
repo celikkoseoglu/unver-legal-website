@@ -1,3 +1,5 @@
+import storage from "local-storage-fallback";
+
 export const TURKISH = "tr";
 export const ENGLISH = "en";
 
@@ -10,4 +12,14 @@ export const switchLanguage = (language) => {
     return ENGLISH;
   }
   return TURKISH;
+};
+
+export const getInitialLanguage = () => {
+  const initialLanguage = storage.getItem("language");
+
+  if (initialLanguage === null) {
+    return TURKISH;
+  }
+
+  return initialLanguage;
 };

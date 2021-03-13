@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import NoSSR from "react-no-ssr";
 import BlogItem from "../components/Blog/BlogItem";
 import {
@@ -7,22 +7,25 @@ import {
   blogStyle,
   footerStyle,
 } from "../stylesheets/Blog.module.sass";
-import { getInitialTheme } from "../utils/FileManager.utils";
+import {getInitialTheme} from "../utils/FileManager.utils";
 import BlogFooter from "../components/Footer/BlogFooter";
 import HorizontalRuler from "../components/Util/HorizontalRuler";
 import BlogNavbar from "../components/Navbar/BlogNavbar";
-import { firebaseAnalytics } from "../firebaseConfig";
+import {firebaseAnalytics} from "../firebaseConfig";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/blog.png";
 
 import GrowingCircleAnimation from "../components/Animations/GrowingCircleAnimation";
+import {getInitialLanguage, getLanguageFile} from "../utils/LanguageSwitcher";
 
-const blog = require("../data/en/blog.json");
 const footer = require("../data/en/footer.json");
-const blogNavbar = require("../data/en/blogNavbar.json");
 
 const Blog = () => {
   const [isDark, setIsDark] = useState(getInitialTheme());
+  const [language, setLanguage] = useState(getInitialLanguage());
+
+  const blog = getLanguageFile("blog", language);
+  const blogNavbar = getLanguageFile("blogNavbar", language);
 
   firebaseAnalytics.logEvent("blog_visited");
 
@@ -47,7 +50,7 @@ const Blog = () => {
         imageUrl={metaThumbnail}
         imageAlt={blog.metaImageAlt}
       />
-      <GrowingCircleAnimation isDark={isDark} />
+      <GrowingCircleAnimation isDark={isDark}/>
       <div className={`${blogStyle}`}>
         <BlogNavbar
           headerText={blogNavbar.blogBranding}
@@ -70,10 +73,10 @@ const Blog = () => {
           />
         ))}
 
-        <HorizontalRuler isDark={isDark} />
+        <HorizontalRuler isDark={isDark}/>
       </div>
       <div className={footerStyle}>
-        <BlogFooter content={footer} isDark={isDark} />
+        <BlogFooter content={footer} isDark={isDark}/>
       </div>
     </div>
   );

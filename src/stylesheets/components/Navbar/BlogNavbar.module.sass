@@ -1,5 +1,6 @@
 @import "../../../utils/colorPalette"
 @import "../../../utils/animationTimer"
+@import "../../../utils/widthPicker"
 
 .noMargin
   margin: 0
@@ -54,5 +55,8 @@
     color: $light-blue
 
 .ruler
-  width: 400px
   padding-bottom: 50px
+  width: 450px
+  +screen(lessThanMedium)
+    width: 100%
+    padding-bottom: 30px

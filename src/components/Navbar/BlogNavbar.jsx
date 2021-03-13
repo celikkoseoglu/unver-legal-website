@@ -13,7 +13,7 @@ import {
   blogLinkBrandingDark,
   defaultCursor,
   pointerCursor,
-  ruler
+  ruler,
 } from "../../stylesheets/components/Navbar/BlogNavbar.module.sass";
 import DarkModeToggle from "../DarkModeToggle";
 import UnstyledLink from "../Util/UnstyledLink";
@@ -39,7 +39,6 @@ const BlogNavbar = ({ headerText, headerLink, brandingLink, isDark, setIsDark, c
 
   return (
     <div>
-
       <UnstyledLink to={brandingLink}>
         <a className={`${branding}`} href="/">
           <img
@@ -51,16 +50,12 @@ const BlogNavbar = ({ headerText, headerLink, brandingLink, isDark, setIsDark, c
         </a>
       </UnstyledLink>
 
-      <HorizontalRuler isDark={isDark} className={ruler}/>
+      <HorizontalRuler isDark={isDark} className={ruler} />
 
       <div className={`${navbarFlex} ${className}`}>
-        <div className={brandingContainer}>
-
-
-          {getTitleOrButton(headerText, headerLink, isDark)}
-        </div>
+        <div className={brandingContainer}>{getTitleOrButton(headerText, headerLink, isDark)}</div>
         <div className={darkModeToggle}>
-          <DarkModeToggle onClickMethod={setIsDark} isDark={isDark} setIsDark={setIsDark}/>
+          <DarkModeToggle onClickMethod={setIsDark} isDark={isDark} setIsDark={setIsDark} />
         </div>
       </div>
     </div>

@@ -6,12 +6,12 @@ import Footer from "../components/Footer/Footer";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/home.png";
 import PublicationShowcase from "../components/Section/PublicationShowcase";
-import {TURKISH} from "../utils/LanguageSwitcher";
+import { getInitialLanguage } from "../utils/LanguageSwitcher";
 
 const content = require("../data/en/content.json");
 
 const Home = () => {
-  const [language, setLanguage] = useState(TURKISH);
+  const [language, setLanguage] = useState(getInitialLanguage());
 
   return (
     <>

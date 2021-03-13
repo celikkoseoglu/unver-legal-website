@@ -17,22 +17,25 @@ import BlogNavbar from "../components/Navbar/BlogNavbar";
 import { firebaseAnalytics } from "../firebaseConfig";
 import BlogPostMarkdown from "../components/Blog/BlogPostMarkdown";
 import GrowingCircleAnimation from "../components/Animations/GrowingCircleAnimation";
+import { getInitialLanguage, getLanguageFile } from "../utils/LanguageSwitcher";
 
-const blogNavbar = require("../data/en/blogNavbar.json");
 const footer = require("../data/en/footer.json");
 
 const BlogPost = () => {
   const [post, setPost] = useState("");
   const [isDark, setIsDark] = useState(getInitialTheme());
+  const [language, setLanguage] = useState(getInitialLanguage());
 
   const { blogPostFileName } = useParams();
+
+  const blogNavbar = getLanguageFile("blogNavbar", language);
 
   let redirect = false;
 
   let hashedBlogFileLink;
   try {
     // eslint-disable-next-line global-require,import/no-dynamic-require
-    hashedBlogFileLink = require(`../blog/${blogPostFileName}.md`);
+    hashedBlogFileLink = require(`../blog/${language}/${blogPostFileName}.md`);
     // eslint-disable-next-line global-require,import/no-dynamic-require
   } catch {
     redirect = true;
@@ -55,9 +58,7 @@ const BlogPost = () => {
     return <Redirect to="/404" />;
   }
 
-  const noSSRContent = (
-    <BlogPostMarkdown content={post} isDark={isDark} />
-  );
+  const noSSRContent = <BlogPostMarkdown content={post} isDark={isDark} />;
 
   const content = (
     <div className={`${isDark && blogPostDark} ${blogPostBody}`}>
