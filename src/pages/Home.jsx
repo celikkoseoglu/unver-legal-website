@@ -7,6 +7,7 @@ import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/home.png";
 import PublicationShowcase from "../components/Section/PublicationShowcase";
 import { getInitialLanguage } from "../utils/LanguageSwitcher";
+import Contact from "../components/Section/Contact";
 
 const content = require("../data/en/content.json");
 
@@ -25,6 +26,7 @@ const Home = () => {
       <Landing id={content.landingReference} language={language} />
       <AboutMe id={content.aboutUsReference} language={language} />
       <PublicationShowcase id={content.publicationShowcaseReference} language={language} />
+      <Contact id={content.contactReference} language={language} />
       <Footer language={language} />
     </>
   );

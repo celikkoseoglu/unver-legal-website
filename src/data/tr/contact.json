@@ -1,0 +1,15 @@
+{
+  "title": "İletişime geçin.",
+  "addressTitle": "Adres:",
+  "address": "Usta 1071 Plaza B Blok, 17. Kat, No: 127 Kızılırmak Mah. 1443. Cadde, 06510 Çankaya/Ankara",
+  "phoneTitle": "Telefon:",
+  "phone": "+90 0312 543 29 95",
+  "emailTitle": "E-posta:",
+  "email": "info@unverlegal.com",
+  "socialMediaLinks": {
+    "linkedinLink": "https://www.linkedin.com/in/eralp-%C3%BCnver/",
+    "linkedinAriaLabel": "LinkedIn Profili",
+    "emailLink": "mailto:info@unverlegal.com",
+    "emailAriaLabel": "Email Adresi"
+  }
+}

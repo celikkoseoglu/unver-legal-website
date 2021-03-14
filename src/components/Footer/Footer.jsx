@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import {
   brandingLogos,
-  celikkBranding,
   copyrightBar,
   footerLightText,
   footerListContainer,
@@ -13,13 +12,10 @@ import {
   toggleDisclaimerLink,
 } from "../../stylesheets/components/Footer/Footer.module.sass";
 
-import SocialMediaBar from "./SocialMediaBar";
 import HorizontalRuler from "../Util/HorizontalRuler";
 import Container from "../Util/Container";
-import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
-import BlogBrandingLogo from "../Animations/BlogBrandingLogo";
 import { getLanguageFile } from "../../utils/LanguageSwitcher";
-import AboutMe from "../Section/AboutUs";
+import BrandingLogos from "../BrandingLogos";
 
 const Footer = ({ language }) => {
   const [isDisclaimerExpanded, setIsDisclaimerExpanded] = useState(false);
@@ -44,7 +40,6 @@ const Footer = ({ language }) => {
       <Container className={sectionMargins}>
         <div className={copyrightBar}>
           <p className={`${footerLightText}`}>{footer.copyright}</p>
-          <SocialMediaBar socialMediaLinks={footer.socialMediaLinks} />
         </div>
 
         <HorizontalRuler isDark className={ruler} />
@@ -57,15 +52,7 @@ const Footer = ({ language }) => {
           )}
           {getDisclaimerToggleLink()}
         </div>
-
-        <div className={brandingLogos}>
-          <a href="/">
-            <img border="0" alt="logo" src={unverLegalLogo} width="auto" height="20" />
-          </a>
-          <a href="https://www.celikk.me">
-            <BlogBrandingLogo className={`${celikkBranding}`} isDark />
-          </a>
-        </div>
+        <BrandingLogos isDark className={brandingLogos} />
       </Container>
     </footer>
   );

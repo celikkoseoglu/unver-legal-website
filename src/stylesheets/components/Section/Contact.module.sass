@@ -1,0 +1,89 @@
+@import "../../../utils/widthPicker"
+@import "../../../utils/colorPalette"
+
+.backgroundImage
+  background: url("../../../data/images/aboutMe/handshake.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+
+.sectionMargins
+  margin-top: 70px
+  margin-bottom: 70px
+  +screen(large)
+    margin-top: 40px
+    margin-bottom: 40px
+  +screen(lessThanMedium)
+    margin-top: 15px
+    margin-bottom: 15px
+
+.description
+  max-width: 700px
+  font-size: 16px
+  font-weight: 300
+  font-family: Montserrat, sans-serif
+  color: $pale-grey
+
+.descriptionRow
+  justify-content: space-between
+  align-items: center
+
+.heading
+  font-family: Montserrat, sans-serif
+  margin-bottom: 0
+  margin-left: 0
+  font-weight: 700
+  max-width: 700px
+
+.image
+  width: 300px
+  height: 300px
+  border: 7px solid $oxidised-silver
+  filter: grayscale(85%)
+  border-radius: 100%
+  transition: filter .2s
+  +screen(lessThanMedium)
+    display: none
+  +screen(large)
+    width: 250px
+    height: 250px
+  &:hover
+    filter: grayscale(0%)
+
+.ruler
+  max-width: 300px
+  margin-left: 0
+  margin-top: 20px
+
+.titleRow
+  margin-bottom: 10px
+  align-items: center
+  +screen(small)
+    margin-bottom: 10px
+  +screen(large)
+    margin-bottom: 35px
+
+.listPadding
+  padding: 0
+  li
+    list-style: none
+  li::before
+    content: "\003E"
+    display: inline-block
+    font-size: 16px
+    width: 1em
+  li a
+    color: $oxidised-silver
+    text-decoration: underline
+    text-decoration-style: dotted
+
+.title
+  margin-block-end: 0
+  font-weight: 500
+
+.text
+  margin-block-start: 0
+
+.socialMediaBarSpacing
+  margin-top: 12px
