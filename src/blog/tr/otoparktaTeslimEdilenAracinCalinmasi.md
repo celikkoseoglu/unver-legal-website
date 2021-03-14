@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="airpodsPro" image="case3.jpg" imageAlt="image alt" description="Otaparkta Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı" title="UnverLegal - Otoparka Teslim Edilen Aracın Çalınması" />
+<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Otaparkta Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı" title="UnverLegal - Otoparka Teslim Edilen Aracın Çalınması" />
 
 # Otoparka Teslim Edilen Aracın Çalınması Halinde Teslim Alanın Sorumluluğu
 

@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="airpodsPro" image="case3.jpg" imageAlt="image alt" description="Anonim Şirket ile YK Üyeleri, Üst Düzey Yöneticiler Arasındaki İş Sözleşmelerinin Geçerliliği ve Yönetim Kurulu Üyelerinin Sigortalılığı" title="UnverLegal - Anonim Şirket YK Üyeleri ile Akdedilen İş Sözleşmeleri ve YK Üyelerinin Sigortalılığı" />
+<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Anonim Şirket ile YK Üyeleri, Üst Düzey Yöneticiler Arasındaki İş Sözleşmelerinin Geçerliliği ve Yönetim Kurulu Üyelerinin Sigortalılığı" title="UnverLegal - Anonim Şirket YK Üyeleri ile Akdedilen İş Sözleşmeleri ve YK Üyelerinin Sigortalılığı" />
 
 # Anonim Şirket YK Üyeleri ile Akdedilen İş Sözleşmeleri ve YK Üyelerinin Sigortalılığı
 

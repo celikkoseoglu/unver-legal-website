@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="airpodsPro" image="case3.jpg" imageAlt="image alt" description="Mirası Reddin Mirasçılara Yapılan İcra Takibine Etkisi" title="UnverLegal - Mirasçılara Yapılan İcra Takibi" />
+<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Mirası Reddin Mirasçılara Yapılan İcra Takibine Etkisi" title="UnverLegal - Mirasçılara Yapılan İcra Takibi" />
 
 # Mirası Ret ve Mirasçılara Karşı İcra Takibi
 

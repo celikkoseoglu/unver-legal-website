@@ -26,5 +26,10 @@ export const getRandomInt = (range) => {
 
 export const getInitialTheme = () => {
   const savedTheme = storage.getItem("theme");
-  return !(savedTheme === "true");
+
+  if (savedTheme === null) {
+    storage.setItem("theme", "true");
+  }
+
+  return savedTheme === "true";
 };
