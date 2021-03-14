@@ -10,6 +10,8 @@
     "linkedinLink": "https://www.linkedin.com/in/eralp-%C3%BCnver/",
     "linkedinAriaLabel": "LinkedIn Profili",
     "emailLink": "mailto:info@unverlegal.com",
-    "emailAriaLabel": "Email Adresi"
+    "emailAriaLabel": "Email Adresi",
+    "mapLink": "https://maps.app.goo.gl/hy1qka9KvmbfwhtG6",
+    "mapAriaLabel": "Adresi Google Maps ile gösterin"
   }
 }

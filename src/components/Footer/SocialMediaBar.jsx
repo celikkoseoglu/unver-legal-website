@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelope, FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 import SocialMediaIcon from "./SocialMediaIcon";
 import {
   inlineList,
   linkedin,
   mail,
+  map,
   noVerticalMargin,
   socialMediaButton,
 } from "../../stylesheets/components/Footer/SocialMediaBar.module.sass";
@@ -27,6 +28,13 @@ const SocialMediaBar = ({ socialMediaLinks, buttonBackground }) => {
           ariaLabel={socialMediaLinks.emailAriaLabel}
         >
           <FaEnvelope />
+        </SocialMediaIcon>
+        <SocialMediaIcon
+          className={`${map} ${socialMediaButton} ${buttonBackground}`}
+          link={socialMediaLinks.mapLink}
+          ariaLabel={socialMediaLinks.mapAriaLabel}
+        >
+          <FaMapMarkerAlt />
         </SocialMediaIcon>
       </ul>
     </>
