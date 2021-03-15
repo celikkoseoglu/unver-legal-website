@@ -1,5 +1,6 @@
 @import "../../../utils/widthPicker"
 @import "../../../utils/colorPalette"
+@import "../../../utils/animationTimer"
 
 .backgroundImage
   background: url("../../../data/images/publicationShowcase/papers.jpg")
@@ -14,12 +15,13 @@
     display: block
 
 .link
-  color: #01A18B
+  color: $sky-blue
   font-family: Montserrat, sans-serif
+  transition: color $colorTransitionDuration
   font-weight: 500
   margin-top: 20px
   &:hover
-    color: #40a186
+    color: $light-blue
 
 .buttonPadding
   padding-top: 15px
