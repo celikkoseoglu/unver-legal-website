@@ -5,20 +5,16 @@ import {
   socialMediaButtonBackground,
   socialMediaButtonBackgroundDark,
   footerStyle,
-  title,
   socialMediaBar,
 } from "../../stylesheets/components/Footer/BlogFooter.module.sass";
 import BrandingLogos from "../BrandingLogos";
 
-const footer = require("../../data/en/footer.json");
+const footer = require("../../data/en/contact.json");
 
 const BlogFooter = ({ isDark }) => {
   return (
     <footer className={footerStyle}>
       <BrandingLogos isDark={isDark} />
-      <div className={title}>
-        <span>{footer.title}</span>
-      </div>
       <div className={socialMediaBar}>
         <SocialMediaBar
           socialMediaLinks={footer.socialMediaLinks}
