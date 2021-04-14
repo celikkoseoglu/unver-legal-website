@@ -5,51 +5,58 @@
   "metaImageAlt": "The image contains the logo of this website. Next to that, it says publications with capital letters in Montserrat font.",
   "blogItems": [
     {
+      "title": "Bilgisayar Programlarının İkinci El Satışı ve Yargıtay’ın Verisil v. Microsoft Kararı",
+      "date": "15.04.2021",
+      "minutes": "25 dakikalık okuma",
+      "subtitle": "Oem programların ikinci el satışında yayma hakkı ve tükenme ilkesi",
+      "blogPost": "bilgisayarProgramlarininIkinciElSatisi"
+    },
+    {
       "title": "Üst Sınır İpoteğinde Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri",
       "date": "01.04.2021",
-      "minutes": "25 dakikalik okuma",
+      "minutes": "25 dakikalık okuma",
       "subtitle": "Sözleşmedeki Hukuki Sebep ve “doğmuş ve doğacak tüm borçların teminatıdır” İbaresi",
       "blogPost": "ustSinirIpotegindeHukukiSebep"
     },
     {
       "title": "Mirası Ret ve Mirasçılara Karşı İcra Takibi",
       "date": "15.03.2021",
-      "minutes": "20 dakikalik okuma",
+      "minutes": "20 dakikalık okuma",
       "subtitle": "Medeni kanunda düzenlenmiş olan mirasın reddi, mirasçıya, mirasçılık sıfatını kabul etmeme imkanını veren bir yoldur.",
       "blogPost": "mirasiReddinMirascilaraYapilanIcraTakibineEtkisi"
     },
     {
       "title": "Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek",
       "date": "01.03.2021",
-      "minutes": "15 dakikalik okuma",
+      "minutes": "15 dakikalık okuma",
       "subtitle": "Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek ve Bu Durumun Hizmet Süresine Etkisi",
       "blogPost": "emekliOlduktanSonraAyniIsYerindeCalismayaDevamEtmek"
     },
     {
       "title": "Anonim Şirket Genel Kurul Kararının İptali - Muhalefet Şerhi - Peşin Muhalefet",
       "date": "15.02.2021",
-      "minutes": "15 dakikalik okuma",
+      "minutes": "15 dakikalık okuma",
       "subtitle": "Sermaye Artırımına İlişkin AŞ Genel Kurul Kararının İptali - Karara Muhalefet Ne Zaman Yapılmalı?",
       "blogPost": "anonimSirketGenelKurulKararininIptali"
     },
     {
       "title": "Otoparka Teslim Edilen Aracın Çalınması Halinde Teslim Alanın Sorumluluğu",
       "date": "01.02.2021",
-      "minutes": "15 dakikalik okuma",
+      "minutes": "15 dakikalık okuma",
       "subtitle": "Otoparka Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı",
       "blogPost": "otoparktaTeslimEdilenAracinCalinmasi"
     },
     {
       "title": "Anonim Şirket YK Üyeleri ile Akdedilen İş Sözleşmeleri ve YK Üyelerinin Sigortalılığı",
       "date": "15.01.2021",
-      "minutes": "20 dakikalik okuma",
+      "minutes": "20 dakikalık okuma",
       "subtitle": "Anonim Şirket ile YK Üyeleri, Üst Düzey Yöneticiler Arasındaki İş Sözleşmelerinin Geçerliliği ve Yönetim Kurulu Üyelerinin Sigortalılığı",
       "blogPost": "anonimSirketYKUyeleriIleAkdedilenIsSozlesmeleri"
     },
     {
       "title": "Koronavirus ve Kiralara Etkisi",
       "date": "01.01.2021",
-      "minutes": "15 dakikalik okuma",
+      "minutes": "15 dakikalık okuma",
       "subtitle": "Koronavirüs Dolayısıyla Kira Sözleşmelerinin Aşırı İfa Güçlüğü Çerçevesinde Yeniden Uyarlanması ve Bursa Bölge Adliye Mahkemesi Kararı",
       "blogPost": "koronavirusVeKiralaraEtkisi"
     }
