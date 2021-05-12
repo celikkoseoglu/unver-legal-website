@@ -37,7 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src -c .eslintrc.json --ext js,jsx"
+    "lint": "eslint src -c .eslintrc.json --ext js,jsx",
+    "postbuild": "react-snap"
   },
   "browserslist": {
     "production": [
