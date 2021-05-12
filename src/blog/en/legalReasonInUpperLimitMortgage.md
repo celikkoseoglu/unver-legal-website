@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Legal Reason in Upper Limit Mortgage and Guaranty Agreements of Banks Restricting the Economic Freedom of Consumers" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Legal Reason in Upper Limit Mortgage and Guaranty Agreements of Banks Restricting the Economic Freedom of Consumers" />
 
 # Legal Reason in Upper Limit Mortgage and Guaranty Agreements of Banks Restricting the Economic Freedom of Consumers
 

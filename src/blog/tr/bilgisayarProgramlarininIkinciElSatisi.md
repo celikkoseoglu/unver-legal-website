@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="FSEK kapsamında yayma hakkı, bu hakkın sınırları ve OEM programların ikinci el satışında yayma hakkı ve tükenme ilkesinin uygulanması" title="UnverLegal - Bilgisayar Programlarının İkinci El Satışı ve Yargıtay’ın Verisil v. Microsoft Kararı" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="FSEK kapsamında yayma hakkı, bu hakkın sınırları ve OEM programların ikinci el satışında yayma hakkı ve tükenme ilkesinin uygulanması" title="UnverLegal - Bilgisayar Programlarının İkinci El Satışı ve Yargıtay’ın Verisil v. Microsoft Kararı" />
 
 # Bilgisayar Programlarının İkinci El Satışı ve Yargıtay’ın Verisil v. Microsoft Kararı
 

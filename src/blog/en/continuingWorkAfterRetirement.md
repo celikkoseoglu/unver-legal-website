@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Continuing to Work in the Same Workplace After Retirement" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Continuing to Work in the Same Workplace After Retirement" />
 
 # Continuing to Work After Retirement
 

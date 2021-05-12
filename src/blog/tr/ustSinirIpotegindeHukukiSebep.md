@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Üst Sınır İpoteğinde Hukuki Sebep ve Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Continuing to Work in the Same Workplace After Retirement" title="UnverLegal - Üst Sınır İpoteğinde Hukuki Sebep ve Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri" />
 
 # Üst Sınır İpoteğinde Hukuki Sebep ve Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri
 

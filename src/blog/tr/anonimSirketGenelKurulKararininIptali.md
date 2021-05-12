@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Sermaye Artırımına İlişkin AŞ Genel Kurul Kararının İptali - Karara Muhalefet Ne Zaman Yapılmalı?" title="UnverLegal - AŞ Genel Kurul Kararına Peşinen Muhalefet" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Sermaye Artırımına İlişkin AŞ Genel Kurul Kararının İptali - Karara Muhalefet Ne Zaman Yapılmalı?" title="UnverLegal - AŞ Genel Kurul Kararına Peşinen Muhalefet" />
 
 # Anonim Şirket Genel Kurul Kararının İptali - Muhalefet Şerhi - Peşin Muhalefet
 

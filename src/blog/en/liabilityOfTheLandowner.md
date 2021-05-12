@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Responsibility of the non-contractual landowner for the damage incurred by the buyer who bought a residence from the contractor" title="UnverLegal - Liability of the Landowner, who is not a Party to the Real Estate Purchase Agreement, within the Scope of The Liability of Confidence" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Responsibility of the non-contractual landowner for the damage incurred by the buyer who bought a residence from the contractor" title="UnverLegal - Liability of the Landowner, who is not a Party to the Real Estate Purchase Agreement, within the Scope of The Liability of Confidence" />
 
 # Liability of the Landowner, who is not a Party to the Real Estate Purchase Agreement, within the Scope of The Liability of Confidence
 

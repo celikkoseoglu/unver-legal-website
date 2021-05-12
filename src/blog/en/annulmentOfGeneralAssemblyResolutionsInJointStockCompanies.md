@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="The Right to Claim Annulment of the General Assembly Resolutions of Joint Stock Companies on Capital Increase - When Should Opposition to the Resolution be Made?" title="UnverLegal - The Right to Claim Annulment of the General Assembly Resolutions of Joint Stock Companies on Capital Increase" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="The Right to Claim Annulment of the General Assembly Resolutions of Joint Stock Companies on Capital Increase - When Should Opposition to the Resolution be Made?" title="UnverLegal - The Right to Claim Annulment of the General Assembly Resolutions of Joint Stock Companies on Capital Increase" />
 
 # Annulment of the General Assembly Resolutions of Joint Stock Companies - Opposition in Advance
 

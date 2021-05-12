@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek" title="UnverLegal - Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek" title="UnverLegal - Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek" />
 
 # Emekli Olduktan Sonra Aynı İşyerinde Çalışmaya Devam Etmek
 

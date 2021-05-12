@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Otaparkta Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı" title="UnverLegal - Otoparka Teslim Edilen Aracın Çalınması" />
+<BlogMetaDecorator folder="otoparktaTeslimEdilenAracinCalinmasi" image="otoparktaTeslimEdilenAracinCalinmasi.jpg" imageAlt="hakim tokmağı ve araba anahtarı yan yana duruyor" description="Otaparkta Teslim Edilen Aracın Çalınması ve Teslim Alanın Sorumluluğuna İlişkin Yargıtay Hukuk Genel Kurulu Kararı" title="UnverLegal - Otoparka Teslim Edilen Aracın Çalınması" />
 
 # Otoparka Teslim Edilen Aracın Çalınması Halinde Teslim Alanın Sorumluluğu
 

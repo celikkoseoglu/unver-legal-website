@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Yükleniciden daire satın alan alıcının uğradığı zarardan sözleşme dışı arsa sahibinin sorumluluğu" title="UnverLegal - Konut Satım Sözleşmesinin Tarafı Olmayan Arsa Sahibinin Güven Teorisi Kapsamında Sorumluluğu" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Yükleniciden daire satın alan alıcının uğradığı zarardan sözleşme dışı arsa sahibinin sorumluluğu" title="UnverLegal - Konut Satım Sözleşmesinin Tarafı Olmayan Arsa Sahibinin Güven Teorisi Kapsamında Sorumluluğu" />
 
 # Konut Satım Sözleşmesinin Tarafı Olmayan Arsa Sahibinin Güven Teorisi Kapsamında Sorumluluğu
 

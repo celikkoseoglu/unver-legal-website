@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Adaptation of Lease Agreements in the Framework of Excessive Difficulty in Performance Due to Coronavirus and The Verdict of The Bursa Regional Court of Appeal" title="UnverLegal - Adaptation of Lease Agreements in the Framework of Excessive Difficulty in Performance Due to Coronavirus and The Verdict of The Bursa Regional Court of Appeal" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Adaptation of Lease Agreements in the Framework of Excessive Difficulty in Performance Due to Coronavirus and The Verdict of The Bursa Regional Court of Appeal" title="UnverLegal - Adaptation of Lease Agreements in the Framework of Excessive Difficulty in Performance Due to Coronavirus and The Verdict of The Bursa Regional Court of Appeal" />
 
 # Coronavirus and Its Effects on Lease Agreements
 

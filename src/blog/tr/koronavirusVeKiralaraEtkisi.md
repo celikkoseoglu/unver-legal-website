@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Koronavirüs Dolayısıyla Kira Sözleşmelerinin Aşırı İfa Güçlüğü Çerçevesinde Yeniden Uyarlanması ve Bursa Bölge Adliye Mahkemesi Kararı" title="UnverLegal - Koronavirus ve Kiralar" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Koronavirüs Dolayısıyla Kira Sözleşmelerinin Aşırı İfa Güçlüğü Çerçevesinde Yeniden Uyarlanması ve Bursa Bölge Adliye Mahkemesi Kararı" title="UnverLegal - Koronavirus ve Kiralar" />
 
 # Koronavirus ve Kiralara Etkisi
 

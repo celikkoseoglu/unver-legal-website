@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="The right of distribution within the scope of the Law numbered 5846, the limits of this right and the implementation of the exhaustion doctrine in second-hand sales of OEM programs" title="UnverLegal - Second-hand Sale of Computer Programs and Verisil v. Microsoft Decision of the Court of Cassation" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="The right of distribution within the scope of the Law numbered 5846, the limits of this right and the implementation of the exhaustion doctrine in second-hand sales of OEM programs" title="UnverLegal - Second-hand Sale of Computer Programs and Verisil v. Microsoft Decision of the Court of Cassation" />
 
 # Second-hand Sale of Computer Programs and Verisil v. Microsoft Decision of the Court of Cassation
 

@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Theft of the Vehicle Delivered to the Parking Lot and the Verdict of Plenary Assembly of the Court of Cassation Regarding the Responsibility of the Valet" title="UnverLegal - Theft of the Vehicle Delivered to the Parking Lot and the Verdict of Plenary Assembly of the Court of Cassation Regarding the Responsibility of the Valet" />
+<BlogMetaDecorator folder="otoparktaTeslimEdilenAracinCalinmasi" image="otoparktaTeslimEdilenAracinCalinmasi.jpg" imageAlt="car keys and a gavel next to each other" description="Theft of the Vehicle Delivered to the Parking Lot and the Verdict of Plenary Assembly of the Court of Cassation Regarding the Responsibility of the Valet" title="UnverLegal - Theft of the Vehicle Delivered to the Parking Lot and the Verdict of Plenary Assembly of the Court of Cassation Regarding the Responsibility of the Valet" />
 
 # Theft of the Vehicle Delivered to the Parking Lot and the Responsibility of the Valet
 

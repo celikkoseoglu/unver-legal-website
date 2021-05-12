@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="The Effect of Disclaiming an Inheritance on the Execution Proceedings Against Heirs" title="UnverLegal - The Effect of Disclaiming an Inheritance on the Execution Proceedings Against Heirs" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="The Effect of Disclaiming an Inheritance on the Execution Proceedings Against Heirs" title="UnverLegal - The Effect of Disclaiming an Inheritance on the Execution Proceedings Against Heirs" />
 
 # Disclaiming an Inheritance on the Execution Proceedings Against Heirs
 

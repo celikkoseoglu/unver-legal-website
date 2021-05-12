@@ -1,4 +1,4 @@
-<BlogMetaDecorator folder="generic" image="generic.png" imageAlt="image alt" description="Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members" title="UnverLegal - Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members" />
+<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members" title="UnverLegal - Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members" />
 
 # Validity of Employment Agreements Between Joint Stock Company and Board Members and Social Insurance of Board Members
 
