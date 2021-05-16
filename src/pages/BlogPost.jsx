@@ -35,7 +35,7 @@ const BlogPost = () => {
   let hashedBlogFileLink;
   try {
     // eslint-disable-next-line global-require,import/no-dynamic-require
-    hashedBlogFileLink = require(`../blog/${language}/${blogPostFileName}.md`);
+    hashedBlogFileLink = require(`../blog/${blogPostFileName}.md`);
     // eslint-disable-next-line global-require,import/no-dynamic-require
   } catch {
     redirect = true;
