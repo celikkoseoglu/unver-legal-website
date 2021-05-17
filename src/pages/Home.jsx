@@ -4,7 +4,7 @@ import Landing from "../components/Section/Landing";
 import AboutMe from "../components/Section/AboutUs";
 import Footer from "../components/Footer/Footer";
 import MetaDecorator from "../components/Util/MetaDecorator";
-import metaThumbnail from "../data/images/meta/home.png";
+import metaThumbnail from "../data/images/blogPost/generic/generic.jpg";
 import PublicationShowcase from "../components/Section/PublicationShowcase";
 import { getInitialLanguage } from "../utils/LanguageSwitcher";
 import Contact from "../components/Section/Contact";
