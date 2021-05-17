@@ -15,13 +15,14 @@ import {
   noLeftPadding,
   topNavCollapse,
   topNavExpand,
+  verticalRuler,
   whiteLink,
 } from "../../stylesheets/components/Navbar/NavigationBar.module.sass";
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
 import { debounce, throttle } from "../../utils/Limitors";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
-import { getLanguageFile, switchLanguage } from "../../utils/LanguageSwitcher";
+import { getLanguageFile } from "../../utils/LanguageSwitcher";
 import LanguageToggle from "../LanguageToggle";
 
 const NavigationBar = ({ language, languageSwitchFunction }) => {
@@ -100,9 +101,12 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
               key={item.title}
             />
           ))}
+
+          <div className={verticalRuler} />
+
           <LanguageToggle
             languageSwitchFunction={languageSwitchFunction}
-            text="TR | EN"
+            text="TR - EN"
             language={language}
           />
         </div>

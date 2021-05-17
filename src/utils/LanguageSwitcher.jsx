@@ -3,9 +3,9 @@ import storage from "local-storage-fallback";
 export const TURKISH = "tr";
 export const ENGLISH = "en";
 
-export const getLanguageFile = (fileName, language) => {
-  return require(`../data/${language}/${fileName}.json`);
-};
+export const getLanguageFile = (fileName, language) =>
+  // eslint-disable-next-line global-require,import/no-dynamic-require
+  require(`../data/${language}/${fileName}.json`);
 
 export const switchLanguage = (language) => {
   if (TURKISH === language) {

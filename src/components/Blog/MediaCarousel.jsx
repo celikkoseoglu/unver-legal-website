@@ -9,7 +9,7 @@ import {
   mediaCarousel,
   multipleImage,
 } from "../../stylesheets/components/Blog/MediaCarousel.module.sass";
-import {IS_WEBP_SUPPORTED} from "../../utils/Constants.utils";
+import { IS_WEBP_SUPPORTED } from "../../utils/Constants.utils";
 
 const getImageLinkWithExtension = (imageLink) => {
   if (IS_WEBP_SUPPORTED && imageLink.endsWith(".png")) {
@@ -18,9 +18,8 @@ const getImageLinkWithExtension = (imageLink) => {
   return imageLink;
 };
 
-const imageLinkWithExtension = (folder, imageFileName) => {
-  return `data/images/blogPost/${folder}/${getImageLinkWithExtension(imageFileName)}`;
-};
+const imageLinkWithExtension = (folder, imageFileName) =>
+  `data/images/blogPost/${folder}/${getImageLinkWithExtension(imageFileName)}`;
 
 const MediaCarousel = ({ folder, images, isDark }) => {
   const imageFileNames = images.split(",");

@@ -19,9 +19,7 @@ export const mapFileNameToId = (fileName, fileArray) => {
   throw Error(`File ${fileName} is not found`);
 };
 
-export const getRandomInt = (range) => {
-  return Math.floor(Math.random() * Math.floor(range));
-};
+export const getRandomInt = (range) => Math.floor(Math.random() * Math.floor(range));
 
 export const getInitialTheme = () => {
   const savedTheme = storage.getItem("theme");

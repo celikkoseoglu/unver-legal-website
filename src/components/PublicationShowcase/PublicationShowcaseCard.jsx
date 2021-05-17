@@ -12,21 +12,19 @@ import {
 import UnstyledLink from "../Util/UnstyledLink";
 import { BLOG_LINK } from "../../utils/Constants.utils";
 
-const PublicationShowcaseCard = ({ title, subtitle, timestamp, minutes, blogPost, className }) => {
-  return (
-    <div className={`${square} ${className}`}>
-      <UnstyledLink to={`${BLOG_LINK}${blogPost}`}>
-        <div className={description}>
-          <h6 className={`${montserrat} ${titleStyle}`}>{title}</h6>
-          <p className={`${montserratSlim} ${subtitleStyle}`}>{subtitle}</p>
-        </div>
-        <p className={`${timestampStyle} ${montserratSlim}`}>
-          {timestamp} - {minutes}
-        </p>
-      </UnstyledLink>
-    </div>
-  );
-};
+const PublicationShowcaseCard = ({ title, subtitle, timestamp, minutes, blogPost, className }) => (
+  <div className={`${square} ${className}`}>
+    <UnstyledLink to={`${BLOG_LINK}${blogPost}`}>
+      <div className={description}>
+        <h6 className={`${montserrat} ${titleStyle}`}>{title}</h6>
+        <p className={`${montserratSlim} ${subtitleStyle}`}>{subtitle}</p>
+      </div>
+      <p className={`${timestampStyle} ${montserratSlim}`}>
+        {timestamp} - {minutes}
+      </p>
+    </UnstyledLink>
+  </div>
+);
 
 PublicationShowcaseCard.propTypes = {
   title: PropTypes.string.isRequired,

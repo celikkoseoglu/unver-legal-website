@@ -9,7 +9,7 @@ import {
   footerStyle,
   ruler,
   sectionMargins,
-  toggleDisclaimerLink,
+  toggleDisclaimerButton,
 } from "../../stylesheets/components/Footer/Footer.module.sass";
 
 import HorizontalRuler from "../Util/HorizontalRuler";
@@ -22,18 +22,17 @@ const Footer = ({ language }) => {
 
   const footer = getLanguageFile("footer", language);
 
-  const getDisclaimerToggleLink = () => {
-    return (
-      <a
-        id="myLink"
-        title="Disclaimer Toggle"
-        className={toggleDisclaimerLink}
-        onClick={(_) => setIsDisclaimerExpanded(!isDisclaimerExpanded)}
-      >
-        {isDisclaimerExpanded ? footer.disclaimerHideButtonText : footer.disclaimerShowButtonText}
-      </a>
-    );
-  };
+  const getDisclaimerToggleLink = () => (
+    <button
+      type="button"
+      id="myLink"
+      title="Disclaimer Toggle"
+      className={toggleDisclaimerButton}
+      onClick={(_) => setIsDisclaimerExpanded(!isDisclaimerExpanded)}
+    >
+      {isDisclaimerExpanded ? footer.disclaimerHideButtonText : footer.disclaimerShowButtonText}
+    </button>
+  );
 
   return (
     <footer className={footerStyle}>

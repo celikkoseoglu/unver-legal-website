@@ -1,4 +1,4 @@
-import {isWebpSupported} from "react-image-webp/dist/utils";
+import { isWebpSupported } from "react-image-webp/dist/utils";
 
 export const BLOG_LINK = "/publications/";
 export const iPad = !!window.navigator.userAgent.match(/iPad/i);

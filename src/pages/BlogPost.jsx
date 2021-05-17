@@ -45,7 +45,7 @@ const BlogPost = () => {
     if (!redirect) {
       firebaseAnalytics.logEvent(`${blogPostFileName}_visited`);
 
-      fetch(hashedBlogFileLink)
+      fetch(hashedBlogFileLink.default)
         .then((res) => res.text())
         .then((response) => setPost(response))
         .catch((err) => setPost(err));

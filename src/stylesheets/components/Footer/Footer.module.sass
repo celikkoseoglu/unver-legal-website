@@ -67,10 +67,15 @@
   padding-top: 30px
   padding-bottom: 40px
 
-.toggleDisclaimerLink
+.toggleDisclaimerButton
   color: $sky-blue
   cursor: pointer
   transition: color $colorTransitionDuration
+  border: none transparent // none is required for IE11 Support
+  background: transparent
+  padding: 0
+  font-family: "Montserrat", sans-serif
+  font-size: 14px
   &:hover
     color: $light-blue
     text-decoration: none

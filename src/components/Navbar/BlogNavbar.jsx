@@ -14,18 +14,29 @@ import {
   defaultCursor,
   pointerCursor,
   ruler,
+  centerAlign,
 } from "../../stylesheets/components/Navbar/BlogNavbar.module.sass";
 import DarkModeToggle from "../DarkModeToggle";
 import UnstyledLink from "../Util/UnstyledLink";
 import unverLegalLogo from "../../data/images/unverLegalLogo.svg";
 import unverLegalLogoLight from "../../data/images/unverLegalLogoLight.svg";
 import HorizontalRuler from "../Util/HorizontalRuler";
+import LanguageToggle from "../LanguageToggle";
 
-const BlogNavbar = ({ headerText, headerLink, brandingLink, isDark, setIsDark, className }) => {
+const BlogNavbar = ({
+  headerText,
+  headerLink,
+  brandingLink,
+  isDark,
+  setIsDark,
+  language,
+  languageSwitchFunction,
+  className,
+}) => {
   const header = <h1 className={`${noMargin} ${titleFont}`}>{headerText}</h1>;
 
-  const getTitleOrButton = (text, link) => {
-    return link ? (
+  const getTitleOrButton = (text, link) =>
+    link ? (
       <UnstyledLink
         className={`${isDark ? blogLinkBrandingDark : blogLinkBranding} ${pointerCursor}`}
         to={link}
@@ -35,7 +46,6 @@ const BlogNavbar = ({ headerText, headerLink, brandingLink, isDark, setIsDark, c
     ) : (
       <span className={`${defaultCursor} ${isDark ? titleDark : title}`}>{header}</span>
     );
-  };
 
   return (
     <div>
@@ -49,6 +59,17 @@ const BlogNavbar = ({ headerText, headerLink, brandingLink, isDark, setIsDark, c
           />
         </a>
       </UnstyledLink>
+
+      {language && (
+        <div className={centerAlign}>
+          <LanguageToggle
+            languageSwitchFunction={languageSwitchFunction}
+            text="TR - EN"
+            language={language}
+            isDark={isDark}
+          />
+        </div>
+      )}
 
       <HorizontalRuler isDark={isDark} className={ruler} />
 
@@ -68,12 +89,16 @@ BlogNavbar.propTypes = {
   brandingLink: PropTypes.string.isRequired,
   isDark: PropTypes.bool.isRequired,
   setIsDark: PropTypes.func.isRequired,
+  language: PropTypes.string,
+  languageSwitchFunction: PropTypes.func,
   className: PropTypes.string,
 };
 
 BlogNavbar.defaultProps = {
   headerLink: null,
   className: null,
+  language: null,
+  languageSwitchFunction: null,
 };
 
 export default BlogNavbar;

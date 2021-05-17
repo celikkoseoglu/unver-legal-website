@@ -50,7 +50,7 @@ const Landing = ({ id, language }) => {
     <header
       id={id}
       style={{
-        backgroundImage: `linear-gradient(to bottom, black, transparent 20%, transparent 80%, black 100%), url(${landingImageUrl})`,
+        backgroundImage: `linear-gradient(to bottom, black, transparent 20%, transparent 80%, black 100%), url(${landingImageUrl.default})`,
       }}
       className={`${heroBackground}`}
     >

@@ -5,7 +5,7 @@ import {
   blogShowcaseCard,
   backgroundImage,
   link,
-  buttonPadding
+  buttonPadding,
 } from "../../stylesheets/components/Section/PublicationShowcase.module.sass";
 import Heading from "../Heading";
 import Row from "../Util/Row";

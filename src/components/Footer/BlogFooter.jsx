@@ -11,19 +11,17 @@ import BrandingLogos from "../BrandingLogos";
 
 const footer = require("../../data/en/contact.json");
 
-const BlogFooter = ({ isDark }) => {
-  return (
-    <footer className={footerStyle}>
-      <BrandingLogos isDark={isDark} />
-      <div className={socialMediaBar}>
-        <SocialMediaBar
-          socialMediaLinks={footer.socialMediaLinks}
-          buttonBackground={isDark ? socialMediaButtonBackgroundDark : socialMediaButtonBackground}
-        />
-      </div>
-    </footer>
-  );
-};
+const BlogFooter = ({ isDark }) => (
+  <footer className={footerStyle}>
+    <BrandingLogos isDark={isDark} />
+    <div className={socialMediaBar}>
+      <SocialMediaBar
+        socialMediaLinks={footer.socialMediaLinks}
+        buttonBackground={isDark ? socialMediaButtonBackgroundDark : socialMediaButtonBackground}
+      />
+    </div>
+  </footer>
+);
 
 BlogFooter.propTypes = {
   isDark: PropTypes.bool,
