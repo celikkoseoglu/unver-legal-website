@@ -5,6 +5,13 @@
   "metaImageAlt": "The image contains the logo of this website. Next to that, it says publications with capital letters in Montserrat font.",
   "blogItems": [
     {
+      "title": "Lifting the Corporate Veil",
+      "date": "01.09.2021",
+      "minutes": "20 min read",
+      "subtitle": "The Theory of Lifting the Corporate Veil and Expansion of Liability in Legal Entities",
+      "blogPost": "liftingTheCorporateVeil"
+    },
+    {
       "title": "Incomplete Work and Defective Performance in the Sale of Real Property",
       "date": "01.07.2021",
       "minutes": "20 min read",
