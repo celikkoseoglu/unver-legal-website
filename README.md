@@ -1,3 +1,9 @@
+# Deprecation Warning
+
+This project is deprecated since 27.09.2021. Please refer to https://github.com/celikkoseoglu/unver-legal-website-nextjs to see the latest version.
+
+<hr>
+
 <h1 align="center">
   UnverLegal
 </h1>
